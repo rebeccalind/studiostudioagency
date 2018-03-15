@@ -1,0 +1,322 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    height: 145px;
+    flex: 0 0 auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.nav-top {
+    height: 10%;
+}
+
+.nav-above {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-above h1 {
+    cursor: pointer;
+}
+
+.nav-above-left {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-above-left-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-above-left-left p {
+    font-family: Montserrat;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.swedish {
+    height: 100%;
+    width: 80px;
+}
+
+.swedish p {
+    font-weight: 700;
+}
+
+.english {
+    height: 100%;
+    width: 80px;
+}
+
+.english p {
+    font-weight: 300;
+}
+
+.swedish p:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.english p:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-above-left-right {
+    width: 50%;
+    height: 100%;
+}
+
+.nav-above-center {
+    width: 33%;
+    height: 100%;
+}
+
+.nav-above-center-logo h1 {
+    font-family: Limelight;
+    height: 10px;
+}
+
+.nav-above-right {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-above-right-left {
+    width: 50%;
+    height: 100%;
+}
+
+.nav-above-right-right {
+    width: 50%;
+    height: 100%;
+}
+
+.nav-above-right-icons {
+    height: 10px;
+}
+
+.nav-above-right-icons img {
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.nav-below {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.nav-below a {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.nav-below a:hover {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.nav-below-left {
+    width: 200px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-below-center {
+    width: 200px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-below-right {
+    width: 200px;
+    max-width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.content p {
+    font-family: Montserrat;
+    font-weight: 300;
+}
+
+.content-one {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.content-one-content {
+    padding-top: 145px;
+    width: 60%;
+    margin-left: 15%;
+}
+
+.content-one-title {
+    margin-top: 10%;
+}
+
+.content-one-text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content-two {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.content-two-content {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.content-two-title {
+    margin-top: 10%;
+}
+
+.content-two-text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content-three {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    border: 0.5px solid black;
+}
+
+.content-three-content {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.content-three-title {
+    margin-top: 10%;
+}
+
+.content-three-text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.content-three-text input {
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    width: 200px;
+}
+
+.content-three-text textarea {
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    width: 200px;
+}
+
+#fieldName {
+    width: 500px;
+    padding: 10px;
+}
+
+#fieldEmail {
+    width: 500px;
+    padding: 10px;
+}
+
+#fieldjyulldr {
+    width: 500px;
+    padding: 10px;
+    word-break: break-word;
+}
+
+.content-three-text button {
+    border: 1px solid black;
+    font-family: Montserrat;
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+}
+
+.content-three-text button:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.content-footer {
+    height: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.content-footer-content {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.content-footer-title {
+    margin-top: 10%;
+}
+
+.content-footer-text {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+
+
