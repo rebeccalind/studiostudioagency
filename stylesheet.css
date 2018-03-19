@@ -66,7 +66,12 @@ body {
 }
 
 .swedish p {
+    font-weight: 300;
+}
+
+.swedish p:hover {
     font-weight: 700;
+    cursor: pointer;
 }
 
 .english {
@@ -75,13 +80,9 @@ body {
 }
 
 .english p {
-    font-weight: 300;
+    font-weight: 700;
 }
 
-.swedish p:hover {
-    font-weight: 700;
-    cursor: pointer;
-}
 
 .english p:hover {
     font-weight: 700;
@@ -207,6 +208,11 @@ body {
 .content-one-text {
     margin-top: 5%;
     margin-bottom: 10%;
+}
+
+#a-three {
+    cursor: pointer;
+    font-weight: 700;
 }
 
 #content-two {
