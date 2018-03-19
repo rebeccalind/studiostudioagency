@@ -191,6 +191,7 @@ body {
     max-height: 100%;
     width: 100%;
     border: 0.5px solid black;
+    background-color: rgba(240,240,240,80)
 }
 
 .content-one-content {
@@ -214,6 +215,7 @@ body {
     max-height: 100%;
     width: 100%;
     border: 0.5px solid black;
+    background-color: rgba(200,200,200,80)
 }
 
 .content-two-content {
@@ -236,6 +238,7 @@ body {
     max-height: 100%;
     width: 100%;
     border: 0.5px solid black;
+    background-color: rgba(160,160,160,80)
 }
 
 .content-three-content {
@@ -302,6 +305,7 @@ body {
     width: 100%;
     background-color: black;
     color: white;
+    background-color: rgba(100,100,100,80)
 }
 
 .content-footer-content {
