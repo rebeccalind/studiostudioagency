@@ -317,10 +317,29 @@ body {
     margin-top: 10%;
 }
 
+.content-footer-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-footer-title a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .content-footer-text {
     margin-top: 5%;
     margin-bottom: 10%;
 }
 
+.content-footer-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.content-footer-text a:hover {
+    text-decoration: none;
+    color: white;
+}
 
 
