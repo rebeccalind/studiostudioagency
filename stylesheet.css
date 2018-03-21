@@ -18,7 +18,6 @@ body {
     align-content: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
     background-color: white;
 }
 
@@ -83,7 +82,6 @@ body {
     font-weight: 700;
 }
 
-
 .english p:hover {
     font-weight: 700;
     cursor: pointer;
@@ -102,6 +100,7 @@ body {
 .nav-above-center-logo h1 {
     font-family: 'Allerta Stencil', sans-serif;
     height: 10px;
+    color: #ffbd4a;
 }
 
 .nav-above-right {
@@ -174,6 +173,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .content h2 {
@@ -186,31 +186,67 @@ body {
     font-weight: 300;
 }
 
+#content-white {
+    width: 100%;
+    height: 20%;
+
+}
+
 #content-top {
     height: 100%;
     min-height: 100%;
     max-height: 100%;
-    width: 100%;
-    border: 0.5px solid black;
-    background-color: rgba(240,240,240,80)
+    width: 90%;
+    background-image: url(11.jpg);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .content-top-content {
     padding-top: 130px;
-    width: 60%;
-    margin-left: 15%;
+    width: 100%;
 }
 
 .content-top-title {
     margin-top: 10%;
-    color: rgb(255,189,75);
+    margin-left: 15%;
     font-size: 50px;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .content-top-text {
-    margin-top: 5%;
-    margin-bottom: 10%;
+    background-color: rgba(255,189,74,0.8);
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.content-top-text p {
+    font-weight: 300;
+    width: 80%;
+    margin-left: 20%;
+    bottom: 0;
+}
+
+.content-top-text input {
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    width: 200px;
+}
+
+.content-top-text textarea {
+    border: 1px solid black;
+    font-family: Montserrat;
+    font-size: 16px;
+    width: 200px;
+}
+
+#fieldEmailone {
+    width: 500px;
+    padding: 10px;
 }
 
 .content-top-text button {
@@ -221,44 +257,50 @@ body {
 }
 
 .content-top-text button:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: #ffbd4a;
     cursor: pointer;
 }
-
-.js-cm-form {
-/*    border-bottom: solid 2px #00B290;*/
-}
-
 
 #content-one {
     height: 100%;
     min-height: 100%;
     max-height: 100%;
-    width: 100%;
-    border: 0.5px solid black;
-    background-color: rgba(240,240,240,80)
+    width: 90%;
 }
 
 .content-one-content {
-    width: 60%;
-    margin-left: 15%;
-    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-one-img {
+    width: 50%;
+    min-height: 100%;
+    background-image: url(Consultation.jpg);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: cover;
+}
+
+.content-one-font {
+    width: 50%;
+    height: 100%;
 }
 
 .content-one-title {
     margin-top: 10%;
-    margin-top: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content-one-text {
     margin-top: 5%;
     margin-bottom: 10%;
-}
-
-#a-three {
-    cursor: pointer;
-    font-weight: 700;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
 #content-two {
@@ -266,22 +308,41 @@ body {
     min-height: 100%;
     max-height: 100%;
     width: 100%;
-    border: 0.5px solid black;
-    background-color: rgba(200,200,200,80)
+    width: 90%;
 }
 
 .content-two-content {
-    width: 60%;
-    margin-left: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row
+}
+
+.content-two-img {
+    width: 50%;
+    min-height: 100%;
+    background-image: url(logo-grey-background.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+}
+
+.content-two-font {
+    width: 50%;
+    height: 100%;
 }
 
 .content-two-title {
     margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content-two-text {
     margin-top: 5%;
     margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
 #content-three {
@@ -289,36 +350,58 @@ body {
     min-height: 100%;
     max-height: 100%;
     width: 100%;
-    border: 0.5px solid black;
-    background-color: rgba(160,160,160,80)
+    width: 90%;
 }
 
 .content-three-content {
-    width: 60%;
-    margin-left: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-three-font {
+    width: 50%;
+    height: 100%;
 }
 
 .content-three-title {
     margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content-three-text {
     margin-top: 5%;
     margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
 }
 
-.content-three-text input {
+.content-three-img {
+    width: 50%;
+    min-height: 100%;
+    background-color: rgba(255,189,74,0.8);
+}
+
+.content-three-img input {
     border: 1px solid black;
     font-family: Montserrat;
     font-size: 16px;
     width: 200px;
+    margin-left: 10%;
 }
 
-.content-three-text textarea {
+.content-three-img textarea {
     border: 1px solid black;
     font-family: Montserrat;
     font-size: 16px;
     width: 200px;
+    margin-left: 10%;
+}
+
+label {
+    margin-left: 10%;
 }
 
 #fieldName {
@@ -337,16 +420,17 @@ body {
     word-break: break-word;
 }
 
-.content-three-text button {
+.content-three-img button {
     border: 1px solid black;
     font-family: Montserrat;
     padding: 10px 15px 10px 15px;
     font-size: 16px;
+    margin-left: 10%;
 }
 
-.content-three-text button:hover {
-    color: white;
-    background-color: black;
+.content-three-img button:hover {
+    color: black;
+    background-color: #ffbd4a;
     cursor: pointer;
 }
 
@@ -357,7 +441,8 @@ body {
     width: 100%;
     background-color: black;
     color: white;
-    background-color: rgba(100,100,100,80)
+    background-color: #3c3c3b;
+    width: 90%;
 }
 
 .content-footer-content {
@@ -395,3 +480,262 @@ body {
 }
 
 
+@media only screen and (max-width: 1300px) {
+
+    #fieldName {
+        width: 400px;
+    }
+    
+    #fieldEmail {
+        width: 400px;
+    }
+    
+    #fieldjyulldr {
+        width: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 1050px) {
+
+    #fieldName {
+        width: 300px;
+    }
+    
+    #fieldEmail {
+        width: 300px;
+    }
+    
+    #fieldjyulldr {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 950px) {
+    
+    
+    .content-one-img {
+        width: 20%;
+    }
+
+    .content-one-font {
+        width: 80%;
+    }
+    
+    .content-one-title {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .content-one-text {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    
+    .content-two-img {
+        width: 40%;
+    }
+
+    .content-two-font {
+        width: 60%;
+    }
+    
+    .content-two-title {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .content-two-text {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .content-three-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-three-font {
+        width: 100%;
+    }
+
+    .content-three-title {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .content-three-text {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+
+    .content-three-img {
+        width: 100%;
+        min-height: 100%;
+        background-color: rgba(255,189,74,0.8);
+    }
+    
+    .content-footer-title {
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+
+    .content-footer-text {
+        margin-top: 1%;
+        margin-bottom: 5%;
+    }
+    
+    #fieldName {
+        width: 500px;
+    }
+    
+    #fieldEmail {
+        width: 500px;
+    }
+    
+    #fieldjyulldr {
+        width: 500px;
+    }
+    
+}
+
+@media only screen and (max-width: 820px) {
+    
+    
+    .content-top-text button {
+        margin-top: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 730px) {
+    
+    .content-top-title {
+        margin-left: 5%;
+    }
+    
+    #fieldEmailone {
+        width: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 660px) {
+
+    .content-one-text {
+        text-align: left;
+    }
+    
+    .content-two-text {
+        text-align: left;
+    }
+    
+    .content-three-text {
+        text-align: left;
+    }
+    
+    #fieldName {
+        width: 400px;
+    }
+    
+    #fieldEmail {
+        width: 400px;
+    }
+    
+    #fieldjyulldr {
+        width: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 540px) {
+
+    
+    
+    #fieldEmailone {
+        width: 200px;
+    }
+    
+    #fieldName {
+        width: 300px;
+    }
+    
+    #fieldEmail {
+        width: 300px;
+    }
+    
+    #fieldjyulldr {
+        width: 300px;
+    }
+    
+    .content-one-content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .content-one-font {
+        width: 100%;
+    }
+    
+    .content-one-img {
+        width: 100%;
+        height: 20%;
+    }
+    
+    .content-two-img {
+        display: none;
+    }
+    
+    .content-two-font {
+        width: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+
+    .content-top-title {
+        font-size: 40px;
+    }
+
+    .nav-above-right {
+        width: 0%;
+        visibility: hidden;
+    }
+    
+    .nav-above-left {
+        width: 0%;
+        visibility: hidden;
+    }
+    
+    .nav-above-center {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 410px) {
+    
+    
+    #fieldName {
+        width: 200px;
+    }
+    
+    #fieldEmail {
+        width: 200px;
+    }
+    
+    #fieldjyulldr {
+        width: 200px;
+    }
+    
+}
+
+@media only screen and (max-width: 360px) {
+
+    .content-top-title {
+        font-size: 30px;
+    }
+
+}
