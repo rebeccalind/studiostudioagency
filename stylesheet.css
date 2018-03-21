@@ -514,6 +514,9 @@ label {
 
 @media only screen and (max-width: 950px) {
     
+    #content-top {
+        background-position: center center; 
+    }
     
     .content-one-img {
         width: 20%;
@@ -650,10 +653,6 @@ label {
 }
 
 @media only screen and (max-width: 540px) {
-
-    #content-top {
-        background-position: center; 
-    }
     
     #fieldEmailone {
         width: 200px;
