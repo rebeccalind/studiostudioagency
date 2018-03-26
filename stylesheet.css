@@ -201,7 +201,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center; 
     background-size: cover;
-    background-attachment: fixed;
+/*    background-attachment: fixed;*/
 }
 
 .content-top-content {
@@ -487,6 +487,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     #fieldName {
@@ -510,6 +511,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     #fieldName {
@@ -533,6 +535,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-one-img {
@@ -628,6 +631,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-top-text button {
@@ -643,6 +647,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-top-title {
@@ -662,6 +667,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-one-text {
@@ -697,6 +703,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     #fieldEmailone {
@@ -746,6 +753,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-top-title {
@@ -759,6 +767,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .nav-above-right {
@@ -784,6 +793,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     #fieldName {
@@ -807,6 +817,7 @@ label {
         background-repeat: no-repeat;
         background-position: center center; 
         background-size: cover;
+        background-attachment: none;
     }
     
     .content-top-title {
