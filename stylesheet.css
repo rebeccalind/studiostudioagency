@@ -199,7 +199,7 @@ body {
     width: 90%;
     background-image: url(11.jpg);
     background-repeat: no-repeat;
-    background-position: center top; 
+    background-position: center center; 
     background-size: cover;
     background-attachment: fixed;
 }
