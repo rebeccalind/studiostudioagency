@@ -482,6 +482,14 @@ label {
 
 @media only screen and (max-width: 1300px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     #fieldName {
         width: 400px;
     }
@@ -498,6 +506,14 @@ label {
 
 @media only screen and (max-width: 1050px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     #fieldName {
         width: 300px;
     }
@@ -515,7 +531,11 @@ label {
 @media only screen and (max-width: 950px) {
     
     #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
         background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
     }
     
     .content-one-img {
@@ -606,6 +626,14 @@ label {
 @media only screen and (max-width: 820px) {
     
     
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     .content-top-text button {
         margin-top: 10px;
     }
@@ -613,6 +641,14 @@ label {
 }
 
 @media only screen and (max-width: 730px) {
+    
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
     
     .content-top-title {
         margin-left: 8%;
@@ -626,6 +662,14 @@ label {
 
 @media only screen and (max-width: 660px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     .content-one-text {
         text-align: left;
     }
@@ -653,6 +697,14 @@ label {
 }
 
 @media only screen and (max-width: 540px) {
+    
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
     
     #fieldEmailone {
         width: 200px;
@@ -696,12 +748,28 @@ label {
 
 @media only screen and (max-width: 480px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     .content-top-title {
         font-size: 40px;
     }
 
 @media only screen and (max-width: 450px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     .nav-above-right {
         width: 0%;
         visibility: hidden;
@@ -720,6 +788,13 @@ label {
 
 @media only screen and (max-width: 410px) {
     
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
     
     #fieldName {
         width: 200px;
@@ -737,6 +812,14 @@ label {
 
 @media only screen and (max-width: 360px) {
 
+    #content-top {
+        background-image: url(11.jpg);
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    
     .content-top-title {
         font-size: 30px;
     }
